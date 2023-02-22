@@ -21,3 +21,9 @@ for (int i = 0; i < array.Length; i++)
 }
 
 Console.Write("[" + string.Join(",", resultArray) + "]");
+
+// using System.Linq;
+
+// string[] array = new string[]{"hello", "2", "world", ":-)"};
+// var result = array.Where(x => x.Length <= 3);
+// Console.Write("[" + string.Join(",", result) + "]");
